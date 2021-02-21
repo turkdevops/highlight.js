@@ -24,7 +24,9 @@
   "scripts": {
     "mocha": "mocha",
     "test": "mocha --globals document test",
-    "test-browser": "mocha --globals document test/browser"
+    "test-browser": "mocha --globals document test/browser",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": "*"
@@ -40,9 +42,13 @@
     "glob": "^7.1.4",
     "js-beautify": "^1.10.2",
     "jsdom": "^15.1.1",
-    "lodash": "^4.17.15",
-    "mocha": "^6.2.0",
+    "lodash": "^4.17.20",
+    "mocha": "^6.2.3",
     "should": "^13.2.3",
     "tiny-worker": "^2.3.0"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.458.0"
   }
 }
