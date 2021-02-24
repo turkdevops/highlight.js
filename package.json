@@ -61,7 +61,7 @@
     "glob-promise": "^4.0.1",
     "handlebars": "^4.7.6",
     "jsdom": "^16.4.0",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "mocha": "^8.2.1",
     "refa": "^0.6.0",
     "rollup": "^2.33.1",
