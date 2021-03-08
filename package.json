@@ -48,7 +48,7 @@
     "clean-css": "^5.0.1",
     "cli-table": "^0.3.1",
     "colors": "^1.1.2",
-    "commander": "^7.0.0",
+    "commander": "^7.1.0",
     "deep-freeze-es6": "^1.4.1",
     "del": "^6.0.0",
     "dependency-resolver": "^2.0.1",
