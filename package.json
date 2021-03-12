@@ -46,7 +46,7 @@
     "@typescript-eslint/eslint-plugin": "^4.6.1",
     "@typescript-eslint/parser": "^4.6.1",
     "clean-css": "^5.0.1",
-    "cli-table": "^0.3.1",
+    "cli-table": "^0.3.5",
     "colors": "^1.1.2",
     "commander": "^7.0.0",
     "deep-freeze-es6": "^1.4.1",
